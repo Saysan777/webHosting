@@ -1,0 +1,43 @@
+.main a {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-size: large;
+  margin-left: 20rem;
+}
+
+.navbar-brand {
+  font-size: large;
+  margin: 0.7rem 0 0 1rem;
+  cursor: pointer;
+  border: 1px solid darkorange;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.navbar-brand:hover {
+  border: 1px solid greenyellow;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 7.6rem;
+}
+
+.nav-item .nav-link:hover {
+  background-color: gray;
+  color: black;
+  border-radius: 10rem 10rem 10rem 10rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: greenyellow;
+}
+.navbar-nav .nav-link{
+  text-decoration: underline;
+}
+
+.navbar-nav .nav-item .nav-link a:link {
+  color: whitesmoke;
+}

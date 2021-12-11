@@ -1,0 +1,238 @@
+html {
+  font-size: 65.2%;
+}
+
+body {
+  background-color: darkslategray;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  border-top: 1px solid gainsboro;
+  width: 100%;
+}
+
+.mh1 {
+  margin-top: 7rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: darkorange;
+  font-size: xx-large;
+  animation: 3.8s text1 2s infinite;
+}
+
+@keyframes text1 {
+  0% {
+    opacity: 0;
+    margin-left: 10rem;
+  }
+
+  30% {
+    opacity: 0.55;
+  }
+
+  50% {
+    opacity: 0.6;
+    margin-left: 1rem;
+  }
+
+  100% {
+    opacity: 0;
+    margin-left: 9rem;
+  }
+}
+
+.mid1 {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.mid1 p {
+  color: gray;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 1.2rem;
+  margin-top: 6.4rem;
+}
+
+.container .btn {
+  border-radius: 2rem 2rem 2rem 2rem;
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid darkorange;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  margin-top: 2rem;
+  font-size: large;
+}
+
+.btn:hover {
+  background-color: greenyellow;
+  border: greenyellow;
+}
+.img {
+  position: relative;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper div {
+  width: 45px;
+  height: 40px;
+  border: 5px solid white;
+  position: absolute;
+}
+.wrapper div:nth-child(1) {
+  margin-top: 5%;
+  margin-left: 2%;
+  animation: square 5s linear infinite;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 234, 167, 1),
+    rgba(255, 118, 117, 1)
+  );
+}
+.wrapper div:nth-child(2) {
+  margin-top: 10%;
+  margin-left: 10%;
+  animation: square 5s linear infinite;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 234, 167, 1),
+    rgba(255, 118, 117, 1)
+  );
+}
+.wrapper div:nth-child(3) {
+  margin-top: 20%;
+  margin-left: 40%;
+  animation: square 5s linear infinite;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 234, 167, 1),
+    rgba(255, 118, 117, 1)
+  );
+}
+.wrapper div:nth-child(4) {
+  margin-top: 30%;
+  margin-left: 45%;
+  animation: square 5s linear infinite;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 234, 167, 1),
+    rgba(255, 118, 117, 1)
+  );
+}
+
+.wrapper div:nth-child(5) {
+  margin-top: 23%;
+  margin-left: 95%;
+  animation: square 5s linear infinite;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 234, 167, 1),
+    rgba(255, 118, 117, 1)
+  );
+}
+
+.wrapper div:nth-child(6) {
+  margin-top: 17%;
+  margin-left: 90%;
+  animation: square 7s linear infinite;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 234, 167, 1),
+    rgba(255, 118, 117, 1)
+  );
+}
+.wrapper div:nth-child(7) {
+  margin-top: 5%;
+  margin-left: 100%;
+  animation: square 9s linear infinite;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 234, 167, 1),
+    rgba(255, 118, 117, 1)
+  );
+}
+.wrapper div:nth-child(8) {
+  margin-top: 60%;
+  margin-left: 30%;
+  animation: square 7s linear infinite;
+}
+.wrapper div:nth-child(9) {
+  margin-top: 40%;
+  margin-left: 35%;
+  animation: square 8s linear infinite;
+}
+.wrapper div:nth-child(10) {
+  margin-top: 20%;
+  margin-left: 40%;
+  animation: square 8s linear infinite;
+}
+.wrapper div:nth-child(11) {
+  margin-top: 40%;
+  margin-left: 90%;
+  animation: square 8s linear infinite;
+}
+.wrapper div:nth-child(12) {
+  margin-top: 56%;
+  margin-left: 10%;
+  animation: square 8s linear infinite;
+}
+.wrapper div:nth-child(13) {
+  margin-top: 32%;
+  margin-left: 50%;
+  animation: square 3s linear infinite;
+}
+.wrapper div:nth-child(14) {
+  margin-top: 22%;
+  margin-left: 70%;
+  animation: square 8s linear infinite;
+}
+
+.wrapper div:nth-child(15) {
+  margin-top: 20%;
+  margin-left: 10%;
+  animation: square 5s linear infinite;
+}
+.wrapper div:nth-child(16) {
+  margin-top: 28%;
+  margin-left: 13%;
+  animation: square 4s linear infinite;
+}
+.wrapper div:nth-child(17) {
+  margin-top: 36%;
+  margin-left: 7%;
+  animation: square 6s linear infinite;
+}
+.wrapper div:nth-child(18) {
+  margin-top: 15%;
+  margin-left: 60%;
+  animation: square 7s linear infinite;
+}
+.wrapper div:nth-child(19) {
+  margin-top: 10%;
+  margin-left: 30%;
+  animation: square 2s linear infinite;
+}
+
+@keyframes square {
+  0% {
+    transform: scale(0) translateY(0) rotate(0);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1.2) translateY(-90px) rotate(360deg);
+    opacity: 0;
+  }
+}

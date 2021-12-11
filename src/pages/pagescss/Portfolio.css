@@ -1,0 +1,85 @@
+html {
+  font-size: 62.5%;
+}
+
+.title {
+  margin-top: 2rem;
+  padding: 0;
+}
+.row .card11 {
+  height: 31rem;
+  width: 29rem;
+  margin: 10rem 5rem 0 0;
+  padding: 0;
+}
+
+.card11 .card-body p {
+  font-size: small;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card11 .card-img-top {
+  width: 28.8rem;
+  height: 21rem;
+}
+
+.row .card22 {
+  margin: 11rem 0 0 0 ;
+ 
+}
+
+.row .card22 h1 {
+  font-family:'Courier New', Courier, monospace;
+  font-size: x-large;
+  color: gray;
+  margin-left: 10rem;
+  text-decoration: underline;
+}
+
+.card22 .html {
+  margin: 2.5rem 0 0 0.5rem;
+}
+
+.card22 .para1 , .para2 ,.para3 ,.para4 , .para5 {
+  font-size: 1.3rem;
+}
+
+
+.card22 .para2 , .para3{
+  margin-left: 0;
+}
+
+.card22 .main{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card22 .main2{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem 22rem 0 0 ;
+}
+
+.card22 .html, .css , .Js , .react , .node  {
+  height: 3rem;
+  width: 3rem;
+}
+
+.card22 .node , .para5{
+  margin-left: 10rem;
+}
+
+.main .f1 , .f2{
+  margin: 2rem 0 0 2rem;
+}
+
+.card22 .main3{
+  display: flex;
+  margin:9rem 0 0 9rem;
+  font-size: large;
+}
+
+.main3 .git{
+  margin-left: 2rem;
+}

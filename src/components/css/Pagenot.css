@@ -1,0 +1,35 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: black;
+  font-size: x-large;
+}
+
+.pagenot {
+  margin: 3.4em 0 0 16em;
+}
+
+.pagenot h3{
+  margin:1rem 0 0 12.5rem;
+  font-family: cursive;
+}
+
+.oops{
+  border-radius: 10rem 17rem 10rem 15.5rem;
+}
+
+.btn1 {
+  border: darkorange;
+  padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+  border-radius: 2rem 2rem 2rem 2rem;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin: 1rem 0 0 24rem;
+  font-size: large;
+}
+
+.btn1:hover {
+  background-color: greenyellow;
+}

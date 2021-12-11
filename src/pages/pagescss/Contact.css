@@ -1,0 +1,14 @@
+.html{
+    font-size: 62.5%;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.con .insta , .fb ,.lin{
+    margin-top: 1rem;
+    text-decoration: none;
+}

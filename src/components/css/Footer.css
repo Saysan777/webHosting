@@ -1,0 +1,45 @@
+.footer {
+  position: fixed;
+  border-top: 1px solid gainsboro;
+  display: flex;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+  width: 100vw;
+  padding: 1rem;
+}
+
+.foot1 h3 {
+  color: gray;
+  font-size: small;
+  text-decoration: none;
+}
+.foot1 {
+  width: 90vw;
+  margin-left: 20em;
+}
+
+.foot1 a {
+  color: lightseagreen;
+  text-decoration: none;
+  font-size: small;
+}
+
+.foot1 .pa1 {
+  margin-left: 37.6em;
+  color: gray;
+  font-family: monospace;
+  font-size: small;
+}
+
+.foot1 .rea {
+  color: magenta;
+  font-size: large;
+}
+
+.foot1 .rea:hover {
+  color: darkorange;
+
+  margin-bottom: 0.2rem;
+}
